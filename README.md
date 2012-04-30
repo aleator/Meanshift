@@ -16,5 +16,5 @@ The most basic usage example is:
 This code is somewhat slow, but can be used on reasonably large datasets,
 such as images if waiting is an option:
 
-![Using meanshift for noise reduction](Examples/meanshift-filter.png)
+![Using meanshift for noise reduction](http://github.com/aleator/Meanshift/raw/master/Examples/meanshift-filter.png)
 
