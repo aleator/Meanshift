@@ -10,7 +10,10 @@ Author:              Ville Tirronen
 Maintainer:          aleator@gmail.com
 Category:            Math
 Build-type:          Simple
-Cabal-version:       >=1.2
+Cabal-version:       >=1.6
+
+Extra-source-files: Examples/MeanShiftFilter.hs
+                        ,Examples/meanshift-filter.png
 
 source-repository head
     type: git
@@ -21,5 +24,3 @@ Library
     ghc-options: -O2
     build-depends:   base > 4 && < 5
                     ,vector > 0.9 && < 0.10 
-    extra-source-files: Examples/MeanShiftFilter.hs
-                        ,Examples/meanshift-filter.png
