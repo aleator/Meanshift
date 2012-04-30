@@ -8,10 +8,9 @@ with the same bandwidth (first parameter). This
 can be used to, for example, to partition the data by
 determining which fixed point each of the samples belongs to.
 
-# Examples
-The most basic usage example is:
+# Of Code Quality and Examples
 
- > fixedPointE 0.001 (meanShift 0.1 points) (V.fromList [1,1,1])
+There is an example in the examples directory.
 
 This code is somewhat slow, but can be used on reasonably large datasets,
 such as images if waiting is an option:
